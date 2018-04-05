@@ -17,10 +17,10 @@
 		BDEB261920760C0B00589F24 /* HSO1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB261620760C0B00589F24 /* HSO1ViewController.m */; };
 		BDEB2643207626EA00589F24 /* HS01.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEB2640207626EA00589F24 /* HS01.h */; };
 		BDEB2644207626EA00589F24 /* HS01.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB2641207626EA00589F24 /* HS01.m */; };
-		BDEB26512076516D00589F24 /* AppRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEB264F2076516D00589F24 /* AppRenderer.h */; };
-		BDEB26522076516D00589F24 /* AppRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB26502076516D00589F24 /* AppRenderer.m */; };
 		BDEB26552076536E00589F24 /* AppXmlPraser.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEB26532076536E00589F24 /* AppXmlPraser.h */; };
 		BDEB26562076536E00589F24 /* AppXmlPraser.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB26542076536E00589F24 /* AppXmlPraser.m */; };
+		BDEB266720766AD500589F24 /* AppRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEB266520766AD500589F24 /* AppRenderer.h */; };
+		BDEB266820766AD500589F24 /* AppRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEB266620766AD500589F24 /* AppRenderer.m */; };
 		BE121D61F7F8B3BC544991C2FC2CB39D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7D84A8EF36C46AA22EEE75316DB5B /* ReplaceMe.swift */; };
 		C44B9163C3C9344758E5C7E168347AA8 /* HS01-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5446A8A6ABFD6DDAEA369097AA0CBF1C /* HS01-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA04BD4FA2A75E1F8A0C112F17A3AB97 /* HS01-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E510D7601BEF025EDDEFC9CB76E5FE /* HS01-dummy.m */; };
@@ -71,10 +71,10 @@
 		BDEB2641207626EA00589F24 /* HS01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HS01.m; path = HS01/Classes/HS01.m; sourceTree = "<group>"; };
 		BDEB2642207626EA00589F24 /* HS01.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HS01.xib; path = HS01/Classes/HS01.xib; sourceTree = "<group>"; };
 		BDEB264B20764F6300589F24 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppConstants.h; path = HS01/Classes/AppConstants.h; sourceTree = "<group>"; };
-		BDEB264F2076516D00589F24 /* AppRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppRenderer.h; sourceTree = "<group>"; };
-		BDEB26502076516D00589F24 /* AppRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppRenderer.m; sourceTree = "<group>"; };
 		BDEB26532076536E00589F24 /* AppXmlPraser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppXmlPraser.h; path = HS01/Classes/AppXmlPraser.h; sourceTree = "<group>"; };
 		BDEB26542076536E00589F24 /* AppXmlPraser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppXmlPraser.m; path = HS01/Classes/AppXmlPraser.m; sourceTree = "<group>"; };
+		BDEB266520766AD500589F24 /* AppRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppRenderer.h; path = HS01/Classes/AppRenderer.h; sourceTree = "<group>"; };
+		BDEB266620766AD500589F24 /* AppRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppRenderer.m; path = HS01/Classes/AppRenderer.m; sourceTree = "<group>"; };
 		C2D8839FC4191CF90A1A08CCA9F6F961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C63AE5EA21E1B2D00F05BB4558B2F2A7 /* HS01.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HS01.modulemap; sourceTree = "<group>"; };
 		D0797C89432A7710866C5FE0D9B8B323 /* Pods-HS01_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HS01_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -117,6 +117,8 @@
 		0DCED918A1AD529E5FAF0955C25F44DF /* HS01 */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB266520766AD500589F24 /* AppRenderer.h */,
+				BDEB266620766AD500589F24 /* AppRenderer.m */,
 				BDEB2640207626EA00589F24 /* HS01.h */,
 				BDEB2641207626EA00589F24 /* HS01.m */,
 				BDEB2642207626EA00589F24 /* HS01.xib */,
@@ -127,8 +129,6 @@
 				BDEB261620760C0B00589F24 /* HSO1ViewController.m */,
 				BDEB261720760C0B00589F24 /* HSO1ViewController.xib */,
 				BDEB264B20764F6300589F24 /* AppConstants.h */,
-				BDEB264F2076516D00589F24 /* AppRenderer.h */,
-				BDEB26502076516D00589F24 /* AppRenderer.m */,
 				BDEB26532076536E00589F24 /* AppXmlPraser.h */,
 				BDEB26542076536E00589F24 /* AppXmlPraser.m */,
 			);
@@ -261,7 +261,7 @@
 				C44B9163C3C9344758E5C7E168347AA8 /* HS01-umbrella.h in Headers */,
 				BDEB26552076536E00589F24 /* AppXmlPraser.h in Headers */,
 				BDEB2643207626EA00589F24 /* HS01.h in Headers */,
-				BDEB26512076516D00589F24 /* AppRenderer.h in Headers */,
+				BDEB266720766AD500589F24 /* AppRenderer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +373,8 @@
 				BDEB2644207626EA00589F24 /* HS01.m in Sources */,
 				BDEB261920760C0B00589F24 /* HSO1ViewController.m in Sources */,
 				BE121D61F7F8B3BC544991C2FC2CB39D /* ReplaceMe.swift in Sources */,
+				BDEB266820766AD500589F24 /* AppRenderer.m in Sources */,
 				BDEB26562076536E00589F24 /* AppXmlPraser.m in Sources */,
-				BDEB26522076516D00589F24 /* AppRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
