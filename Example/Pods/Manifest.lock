@@ -1,0 +1,16 @@
+PODS:
+  - HS01 (0.1.0)
+
+DEPENDENCIES:
+  - HS01 (from `../`)
+
+EXTERNAL SOURCES:
+  HS01:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HS01: ed609e48ec0dc3f81dbb87fff02e21999a87decf
+
+PODFILE CHECKSUM: 06e6a840e8a69559d4ec2005c9e270f56fdefd6d
+
+COCOAPODS: 1.4.0.rc.1
