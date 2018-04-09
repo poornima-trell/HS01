@@ -105,5 +105,5 @@
 -(void) createAppBarSectionButtons:(NSMutableArray *)ButtonPropertiesArray;
 
 -(void)HandleOrientation:(UIInterfaceOrientation) toInterfaceOrientation;
-
+-(void)addAppren:(NSObject*)obj;
 @end
