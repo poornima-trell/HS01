@@ -443,7 +443,10 @@ bool animateHS01 = YES;
 
 }
 
-
+-(void)addAppren:(NSObject*)obj
+{
+    self.appRenderer = obj;
+}
 // ****************************
 //   DEFAULT STARTER METHOD
 // ****************************
